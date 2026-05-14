@@ -7,8 +7,6 @@ st.markdown(
     """
     <meta property="og:title" content="Real Estate Research Tool">
     <meta property="og:description" content="A tool to answer real estate questions using provided URLs.">
-    <meta property="og:image" content="https://github.com/Vraj-Data-Scientist/real-estate-assistant-using-RAG/blob/main/image.png?raw=true">
-    <meta property="og:url" content="https://real-estate-assistant-using-rag-vraj-dobariya.streamlit.app/">
     """,
     unsafe_allow_html=True
 )
@@ -17,8 +15,10 @@ st.title("🏠 Real Estate Research Tool")
 
 # Predefined URLs
 PREDEFINED_URLS = {
-    "Mortgage News Daily (Rates)": "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "Bankrate (Mortgages)": "https://www.bankrate.com/mortgages/"
+    "Zillow (Market Trends)": "https://www.zillow.com/research/data/",
+    "Realtor.com (News)": "https://www.realtor.com/news/real-estate-news/",
+    "Redfin (Market Insights)": "https://www.redfin.com/news/",
+    "Investopedia (Real Estate)": "https://www.investopedia.com/mortgage-4427715"
 }
 
 # Initialize session state
